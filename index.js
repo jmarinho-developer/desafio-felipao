@@ -1,5 +1,4 @@
 //Desafio: Classificador de nível de Herói
-//Descrição do Desafio: no Git / Readme.md
 
 let nomeHeroi = "CobaltShadow", nivelHeroi = ""
 
