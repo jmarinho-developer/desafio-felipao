@@ -2,11 +2,11 @@
 
 let nomeHeroi = "CobaltShadow", nivelHeroi = ""
 
-// inicio iteração a cada 500 (a partir de 0) para testar/identificar o nível e imprimir o resultado no console
+// inicio iteração a cada 500 (a partir de 0) para testar/classificar o nível e imprimir o resultado no console
 
-for (numXP = 0; numXP<=10500;numXP+=500){
+for (numXP = 0; numXP<=10500; numXP+=500){
 	
-	// avaliação
+	// inicio teste/classificação
 	if (numXP <= 1000){
 		nivelHeroi = "Ferro"
 	} 
@@ -31,7 +31,7 @@ for (numXP = 0; numXP<=10500;numXP+=500){
 		else if (numXP >= 10001){
 		nivelHeroi = "Radiante"
 	}
-	//fim avaliação
+	//fim teste/classificação
 
 	//impressão
 	console.log("O herói de nome "+nomeHeroi+" está no nível de "+nivelHeroi + " (Qtd. XP = "+numXP+")")
