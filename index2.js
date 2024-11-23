@@ -42,7 +42,10 @@ function rankearSaldoVitorias(){
                 case saldoVitorias >= 101:
                     nivel = "Imortal"
             }
+            
             console.log(`O Herói tem saldo de ${saldoVitorias} vitórias e está no nível de ${nivel}`)
-            numDerrotas+=5           
+            
+            numDerrotas+=5
+                       
     } 
 }
