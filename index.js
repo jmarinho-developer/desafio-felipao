@@ -1,4 +1,4 @@
-//Desafio: Classificador de nível de Herói
+//DESAFIO: CLASSIFICADOR DE NÍVEL DE HERÓI
 
 let nomeHeroi = "CobaltShadow", nivelHeroi = ""
 
