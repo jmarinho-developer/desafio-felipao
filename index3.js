@@ -3,12 +3,12 @@
 class heroi{
 
     constructor(nome, idade, tipo){
-        //Atributos
+        //atributos
         this.nome = nome
         this.idade = idade
         this.tipo = tipo
     }
-    //Metodos
+    //metodos
     atacar(tipo){
 
         let ataque
@@ -31,13 +31,13 @@ class heroi{
 
     }  
 }
-//Instanciando 4 herois
+//instanciando 4 herois
 let tarock = new heroi("Tarock",30,"guerreiro")
 let eldrin = new heroi("Eldrin",50,"mago")
 let kailon = new heroi("Kailon",30,"monge")
 let shinra = new heroi("Shinra",40,"ninja")
 
-//Imprimindo resultado no console
+//imprimindo resultado no console
 tarock.atacar(tarock.tipo)
 eldrin.atacar(eldrin.tipo)
 kailon.atacar(kailon.tipo)
